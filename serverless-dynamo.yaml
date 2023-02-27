@@ -8,8 +8,8 @@ plugins:
   - serverless-offline
 
 custom:
-  deviceTable: 'pefsa-device-table'
-  credentialsTable: 'pefsa-device-credentials-table'
+  deviceTable: 'device-table'
+  credentialsTable: 'credentials-table'
   dynamodb:
     start:
       # port: 8000
